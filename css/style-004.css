@@ -104,7 +104,7 @@ color:#1a237e !important}
 
 /* Modal Content */
 .modal-content {
-  position: fixed;
+  position: absolute;
   background-color: #fefefe;
   margin: auto;
   padding: px;
