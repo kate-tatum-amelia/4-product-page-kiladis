@@ -25,8 +25,8 @@
                 <!-- Right-sided navbar links -->
                 <div class="w3-right w3-hide-small">
                     <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-hotdog"></i>ABOUT</a>
-                    <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-th"></i> FEATURES</a>
-                    <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-dollar-sign"></i> BUY</a>
+                    <a href="#features" class="w3-bar-item w3-button"><i class="fa fa-th"></i> FEATURES</a>
+                    <a href="#buy" class="w3-bar-item w3-button"><i class="fas fa-dollar-sign"></i> BUY</a>
                     <a href="#pricing" class="w3-bar-item w3-button"><i class="fas fa-pencil-alt"></i> REVIEWS</a>
                     <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
                 </div>
@@ -43,7 +43,7 @@
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
   <div class="w3-center">
-      <h4 class="w3-xxxlarge";>Nostalgia Retro Pop-Up Hot Dog Toaster</h4>
+      <h4 class="w3-xxxlarge  w3-animate-zoom";>Nostalgia Retro Pop-Up Hot Dog Toaster</h4>
   <h1 class="w3-xlarge w3-animate-bottom">BUILT WITH W3.CSS</h1>
     <div class="w3-padding-32">
         <p><a href="#BUY" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">BUY OUR PRODUCT</a></p>
@@ -53,8 +53,8 @@
         <nav class="w3-top w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
             <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
             <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-            <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">FEATURES</a>
-            <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">BUY</a>
+            <a href="#features" onclick="w3_close()" class="w3-bar-item w3-button">FEATURES</a>
+            <a href="#buy" onclick="w3_close()" class="w3-bar-item w3-button">BUY</a>
             <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">REVIEWS</a>
             <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
         </nav>
@@ -116,9 +116,8 @@
             </div>
         </div>
 
-        <!-- Java Script -->
+                                    <!-- Java Script -->
         <script src="js/slideshow.js"></script><script src="js/modal.js"></script>
-
 
         <!-- About Section -->
         <div class="w3-container" style="padding:128px 16px" id="about">
@@ -131,7 +130,7 @@
                     <p>We are passionate about hot dogs. We want everyone to experience the perfect hot dog with a crispy toasted bun. We have worked long and hard on our product and we want to share the perfect hot dog maker with you!</p>
                 </div>
                 <div class="w3-third">
-                    <i class="fas fa-puzzle-piece	 w3-margin-bottom w3-jumbo"></i>
+                    <i class="fas fa-puzzle-piece w3-margin-bottom w3-jumbo"></i>
                     <p class="w3-large">Design</p>
                     <p>We found the best way to make a perfect hot dog every time, and it takes no time at all. Our design is retro to add a nostalgic touch to your kitchen. The features show that we thought of everything you could need to have the best hot dog experience.</p>
                 </div>
@@ -144,7 +143,7 @@
         </div>
 
         <!-- Features Section -->
-        <div class="w3-container" style="padding:10px 16px" id="team">
+        <div class="w3-container" style="padding:10px 16px" id="features">
             <h3 class="w3-center">THE FEATURES</h3>
             <p class="w3-center w3-large">What this brilliant toaster can do for you:</p>
             <div class="w3-container">
@@ -180,83 +179,22 @@
                 <br>Places Sold
             </div>
         </div>
-
-        <!-- Buy Section -->
-        <div class="w3-container" style="padding:10px 16px" id="BUY">
+    
+            <!-- Buy Section -->
+        <div class="w3-container" style="padding:10px 16px" id="buy">
             <h3 class="w3-center">BUY</h3>
-
-            <!--away
-<img class="demo w3-opacity; zoom" src="img/hotdogtoasterred-header.jpg" style="width:10%; height: 10%; cursor:pointer"; onclick="openModal(1);currentSlide(1)" class="hover-shadow cursor">
-
-
-<img class="demo w3-opacity; zoom" src="img/hotdog%20toaster%203.jpg" style="width:10%; height: 10%; cursor:pointer"; onclick="openModal(2);currentSlide(2)" class="hover-shadow cursor">
--->
-            <img class="demo w3-opacity; zoom" src="img/hotdogtoasterredddd.jpg" style="width:0%; height: 0%; cursor:pointer"; onclick="openModal(3);currentSlide(3)" class="hover-shadow cursor">
-        </div>
-
-        <div class="row">
-            <div class="w3-col l3">
-                <img class="demo w3-opacity; zoom" src="img/hotdogtoasterred-header.jpg" style="width:20%; height: 100%; cursor:pointer"; onclick="openModal(1);currentSlide(1)" class="hover-shadow cursor">
-            </div>
-            <div class="w3-col l3">
-                <img class="demo w3-opacity; zoom" src="img/hotdog%20toaster%203.jpg" style="width:20%; height: 100%; cursor:pointer"; onclick="openModal(2);currentSlide(2)" class="hover-shadow cursor">
-            </div>
-            <div class="w3-col l3">
-                <img class="demo w3-opacity; zoom" src="img/hotdogtoasterredddd.jpg" style="width:20%; height: 100%; cursor:pointer"; onclick="openModal(3);currentSlide(3)" class="hover-shadow cursor">
-            </div>
-            <div class="w3-col l3">
-                <img class="demo w3-opacity; zoom" src="img/blue%20hot%20dog%20toaster.jpg" style="width:20%; height: 100%; cursor:pointer"; onclick="openModal(3);currentSlide(3)" class="hover-shadow cursor">
-            </div>
-        </div>
-
-        <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-
-                <div class="mySlides">
-                    <div class="numbertext">1 / 4</div>
-                    <img src="img/hotdogtoasterred-header.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">2 / 4</div>
-                    <img src="img/hotdog%20toaster%203.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">3 / 4</div>
-                    <img src="img/hotdogtoasterredddd.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">4 / 4</div>
-                    <img src="img/blue%20hot%20dog%20toaster.jpg" style="width:100%">
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-
-
-                <div class="column">
-                    <img class="demo cursor" src="img/hotdogtoasterred-header.jpg" style="width:50%" onclick="currentSlide(1)" alt="Red Hot Dog Toaster">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="img/hotdog%20toaster%203.jpg" style="width:50%" onclick="currentSlide(2)" alt="Inside of the Hot Dog Toaster">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="img/hotdogtoasterredddd.jpg" style="width:50%" onclick="currentSlide(3)" alt="Hot Dog Ready">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="img/blue%20hot%20dog%20toaster.jpg" style="width:50%" onclick="currentSlide(4)" alt="Blue Hot Dog Toaster">
-                </div>
-            </div>
-        </div>
-
-
+<div class="card">
+  <img src="img/hotdogtoasterred-header.jpg" alt="Hot Dog Toaster" style="width:50%">
+     <h1 style="font-size: 18px;">Red Pop-Up Hot Dog Toaster</h1>
+        <p class="price">$19.76</p>
+  <p><div style="font-size: 10px;">Cooks two regular-size or extra-plump hot dogs at a time</p>
+    <p>Toasts two buns at a time</p>
+    <p>Adjustable cooking timer and stop cooking button</p>
+    <p>Removable hot dog cage</p>
+    <p>Includes mini tongs for removing hot dogs</p>
+    <p>Drip tray for easy cleaning</p></div>
+        <p><button>Add to Cart</button></p></div>
+        
 
         <!-- Skills Section -->
         <div class="w3-container w3-light-grey w3-padding-64">
