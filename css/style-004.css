@@ -68,7 +68,7 @@ body, html {
 }
 
 .row > .column {
-  padding:100px;
+  padding: 0 8px;
 }
 
 .row:after {
@@ -77,6 +77,7 @@ body, html {
   clear: both;
 }
 
+/* Create four equal columns that floats next to eachother */
 .column {
   float: left;
   width: 25%;
@@ -98,10 +99,10 @@ body, html {
 
 /* Modal Content */
 .modal-content {
-  position: absolute;
+  position: relative;
   background-color: #fefefe;
   margin: auto;
-  padding: px;
+  padding: 0;
   width: 90%;
   max-width: 1200px;
 }
@@ -123,12 +124,9 @@ body, html {
   cursor: pointer;
 }
 
+/* Hide the slides by default */
 .mySlides {
   display: none;
-}
-
-.cursor {
-  cursor: pointer;
 }
 
 /* Next & previous buttons */
@@ -140,7 +138,7 @@ body, html {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -170,10 +168,7 @@ body, html {
   top: 0;
 }
 
-img {
-  margin-bottom: -4px;
-}
-
+/* Caption text */
 .caption-container {
   text-align: center;
   background-color: black;
@@ -181,7 +176,7 @@ img {
   color: white;
 }
 
-.demo {
+img.demo {
   opacity: 0.6;
 }
 
